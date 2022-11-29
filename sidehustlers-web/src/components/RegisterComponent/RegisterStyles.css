@@ -1,0 +1,95 @@
+#register-card {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-self: center;
+    margin-top: 5%;
+    padding: 1%;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 1px 2px 8px teal;
+    background-color: teal;
+}
+
+.register-inputs {
+    width: 55%;
+    height: 20px;
+    align-self: center;
+    margin-top: 5%;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 1px 2px 8px white;
+}
+
+#register-button {
+    width: 58%;
+    height: 25px;
+    align-self: center;
+    margin-top: 8%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px white;
+}
+
+#register-span {
+    color: white;
+    align-self: center;
+    font-size: 20px;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errorMsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#success-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#success-div {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-self: center;
+    align-items: center;
+    margin-top: 5%;
+    padding: 1%;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 1px 2px 8px teal;
+    background-color: teal;
+}
+
+#zip-error {
+    /*style={{borderStyle: "solid", color: 'white', borderColor: 'black', marginTop: '10px'}}*/
+    color: white;
+    margin-left: 13%;
+    margin-top: 3%;
+}

@@ -1,0 +1,139 @@
+#main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.header-container {
+    margin-top: 2%;
+    align-self: center;
+}
+
+#main-header {
+    text-shadow: 2px 2px teal;
+    font-style: italic;
+    font-family: Tahoma;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.input-container {
+    display: flex;
+    width: fit-content;
+    align-self: center;
+}
+
+.search-input {
+    margin-right: 2%;
+    border-radius: 5px;
+    border-color: black;
+    height: 30px;
+    box-shadow: 1px 2px 8px teal;
+    padding-left: 0.3rem;
+
+}
+
+/*#zipcode-input {*/
+/*    border-radius: 5px;*/
+/*    border-color: black;*/
+/*}*/
+
+#search-button {
+    /*width: 8%;*/
+    width: 100%;
+    margin-left: 80%;
+    color: white;
+    background-color: teal;
+    margin-top: .9%;
+    align-self: center;
+    /*height: 25px;*/
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px teal;
+
+}
+
+/*#retrieved-posts-container {*/
+/*    border-style: solid;*/
+/*    display: flex;*/
+/*}*/
+
+#post-top-bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#ul-sidejob-suggestions {
+    list-style: none;
+    border: 2px solid black;
+    width: 98%;
+    border-radius: 6px;
+    box-shadow: 1px 2px 8px teal;
+
+}
+
+#li-sidejob-suggestions {
+    margin-left: -15%;
+    width: 100%;
+
+    /*width: 63%;*/
+
+}
+
+#li-sidejob-suggestions:hover {
+    box-shadow: 1px 2px 8px teal;
+    border-radius: 6px;
+    padding-left: 5%;
+    /*width: 63%;*/
+}
+
+#sidejob-suggestions-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#side-job-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#search-button-no-suggestions {
+    width: 8%;
+    color: white;
+    background-color: teal;
+    margin-top: .9%;
+    align-self: center;
+    /*height: 25px;*/
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px teal;
+}
+
+#zip-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#error-span {
+    color: black;
+    margin-top: 2%;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px black;
+}
+
+#no-post-error {
+    margin-top: 5%;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px teal;
+    height: 150px;
+    padding: 3%;
+}
+
+#post-error-span {
+
+
+}
+

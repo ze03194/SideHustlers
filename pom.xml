@@ -81,10 +81,10 @@
 			<version>0.9.1</version>
 		</dependency>
 	</dependencies>
-	<modules>
-		<module>Oauth-authorization-server</module>
-		<module>Oauth-resource-server</module>
-	</modules>
+<!--	<modules>-->
+<!--		<module>Oauth-authorization-server</module>-->
+<!--		<module>Oauth-resource-server</module>-->
+<!--	</modules>-->
 
 	<build>
 		<plugins>

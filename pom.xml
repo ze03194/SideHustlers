@@ -99,7 +99,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>SideHustlersApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
